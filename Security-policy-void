@@ -1,3 +1,33 @@
+1. BASH
+ERROR] 403: Unauthorized Interference
+[SOURCE] Security_Team_Alerts
+[TARGET] Personal_Repo_Usage
+[MESSAGE] "InterferÃªncia detectada em repositÃ³rio externo nÃ£o vinculado a credenciais corporativas."
+[STATUS] Ignorar alertas. O fluxo de trabalho NÃ© pessoal, nÃ£o corporativo.
+[ACTION] Please, stop the spam!
+2. PYTHON_zin
+def check_corporate_risk(repository):
+    if repository.owner == "Personal_Account":
+        return "ZERO_RISK_TO_COMPANY"
+    else:
+        return "CHECK_IT"
+ 
+# Executando análise de prioridade do time de Security
+security_priority = check_corporate_risk("My_Personal_Repo")
+
+if security_priority == "ZERO_RISK_TO_COMPANY":
+    print("Parem de encher o saco. Não uso e-mail da empresa aqui.")
+ 3. JEY_ZON
+{
+  "alert": "Security Team",
+  "issue": "Public Repository",
+  "context": "Personal Email / Personal Time",
+  "corporate_impact": 0.0,
+  "request": "Stop nagging me",
+  "status": "Resolved by ignoring"
+if= Console > "entrou"
+Else= preserve >< "Porque_Quiz"
+}
 <!DOCTYPE html>
 <html lang="pt-br">
 
